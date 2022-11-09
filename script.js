@@ -6,8 +6,8 @@ const moveSound = new Audio("./resources/move.mp3");
 let speed = 19;
 let score = 0;
 let lastPaintTime = 0;
-let snakeArr = [{ x: 13, y: 15 }];
-food = { x: 6, y: 7 };
+let snakeArr = [{ x: 9, y: 9 }];
+food = { x: 6, y: 4 };
 
 // Game Function
 function main(ctime) {
@@ -49,8 +49,8 @@ function gameEngine() {
 
     Swal.fire({
       icon: "error",
-      title: "Oops...",
-      text: "Game Over. Press any key to play again!",
+      title: "Game Over..!! ",
+      text: "Press any key to play again..!!",
     });
 
     snakeArr = [{ x: 13, y: 15 }];
