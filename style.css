@@ -44,20 +44,16 @@
 }
 
 .head {
-  background: linear-gradient(#f07c7c, #e4e481);
-  border: 2px solid #220422;
+  background: #2302fc;
   transform: scale(1.02);
-  border-radius: 9px;
+  border-radius: 5px;
 }
 
 .snake {
   background-color: #800080;
-  border: 0.25vmin solid #ffffff;
-  border-radius: 12px;
 }
 
 .food {
-  background: linear-gradient(#ff0000, #800080);
-  border: 0.25vmin solid #000000;
-  border-radius: 8px;
+  background: #ff0000;
+  border-radius: 5px;
 }
