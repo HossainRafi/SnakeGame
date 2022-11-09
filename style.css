@@ -44,16 +44,16 @@
 }
 
 .head {
-  background: #2302fc;
+  background: #0c0056;
   transform: scale(1.02);
   border-radius: 5px;
 }
 
 .snake {
-  background-color: #800080;
+  background-color: #c70000;
 }
 
 .food {
-  background: #ff0000;
-  border-radius: 5px;
+  background: #c70000;
+  border-radius: 50px;
 }
