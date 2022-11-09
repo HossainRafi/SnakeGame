@@ -14,3 +14,31 @@
   justify-content: center;
   align-items: center;
 }
+
+#scoreBox {
+  position: absolute;
+  top: 25px;
+  right: 230px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "New Tegomin", serif;
+}
+
+#hiscoreBox {
+  position: absolute;
+  top: 70px;
+  right: 160px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "New Tegomin", serif;
+}
+
+#board {
+  background: linear-gradient(#aaecaac7, #8bb5a9c6);
+  width: 90vmin;
+  height: 92vmin;
+  border: 3px solid #423cfaba;
+  display: grid;
+  grid-template-rows: repeat(18, 1fr);
+  grid-template-columns: repeat(18, 1fr);
+}
